@@ -2,7 +2,7 @@
 
 _term() { 
   echo "Caught SIGTERM signal!" 
-  sleep 10
+  sleep 30
   kill -SIGQUIT "$child" 2>/dev/null
 }
 
