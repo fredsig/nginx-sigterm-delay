@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged:1.24-alpine
+FROM nginxinc/nginx-unprivileged:1.25-alpine
 
 USER root
 RUN apk add --no-cache bash
